@@ -75,9 +75,23 @@ var jsCalendar = (function(){
         // Default English language
         en : {
             // Months Names
-            months : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            months : [
+                'Magneetica',   //1
+                'Lunar',        //2
+                'Electrica',    //3
+                'Autoexistente',//4
+                'Harmonica',    //5
+                'Ritmica',      //6
+                'Ressonate',    //7
+                'Galactica',    //8
+                'Solar',        //9
+                'Planetaria',   //10
+                'Espectral',    //11
+                'Cristal',      //12
+                'Cosmica'       //13
+            ],
             // Days Names
-            days : ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+            days : ['Dali', 'Seli', 'Gama', 'Kali', 'Alfa', 'Limi', 'Silio'],
             // Default handlers
             _dateStringParser : function(key, date) {return JsCalendar._defaultDateStringParser(key, date, this);},
             _dayStringParser : function(key, date) {return JsCalendar._defaultDayStringParser(key, date, this);}
